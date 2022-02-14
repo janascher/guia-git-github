@@ -20,7 +20,6 @@
 > O hash é o código composto de letras e números que aparece em `commit: XXXXXXXXX`.
 
 ### **5 Guardando alterações temporariamente e que ainda não foram commitadas para o stash**
-(porém elas continuarão na stash, portanto será preciso removê-las depois)
 
 `git stash`
 
@@ -29,6 +28,7 @@
 `git stash list`
 
 ### **7 Trazendo os itens guardados no stash para o diretório de trabalho**
+(porém elas continuarão na stash, portanto será preciso removê-las depois)
 
 `git stash apply 0`
 
