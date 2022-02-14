@@ -3,7 +3,7 @@
 	<br>
     <sub> Feito com ❤️ por <a href="https://github.com/janascher">Janaína Scher</a></sub>
 	<br><br>
-	🚧 Comandos para trabalhar com Git e GitHub 🚀 Em construção...  🚧
+	🚧 Comandos para trabalhar com Git e GitHub 🚧
 </h4>
 
 Tabela de conteúdos
