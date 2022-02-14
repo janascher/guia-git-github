@@ -6,7 +6,7 @@
 
 ### **2 Desfazendo alterações antes de adicioná-las (antes de fazer `git add`)**
 
-`git checkout`
+`git checkout -- "nome do arquivo"`
 
 ### **3 Desfazendo alterações depois de adicioná-las (depois de fazer `git add`)**
 
