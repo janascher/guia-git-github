@@ -4,7 +4,7 @@
 
 `git commit -m "insera um comentário significativo"`
 
-### **2 Desfazendo alterações antes de adicioná-las (antes de fazer `git add`)
+### **2 Desfazendo alterações antes de adicioná-las (antes de fazer `git add`)**
 
 `git checkout`
 
