@@ -18,3 +18,34 @@
 
 > Para encontrar o hash do commit, é preciso rodar no terminal o `git log` para visualizar o histórico de commits.
 > O hash é o código composto de letras e números que aparece em `commit: XXXXXXXXX`.
+
+### **5 Guardando alterações temporariamente e que ainda não foram commitadas para o stash**
+(porém elas continuarão na stash, portanto será preciso removê-las depois)
+
+`git stash`
+
+### **6 Visualizando os itens guardados no stash**
+
+`git stash list`
+
+### **7 Trazendo os itens guardados no stash para o diretório de trabalho**
+
+`git stash apply 0`
+
+> Para encontrar o número do stash, é preciso rodar no terminal o `git stash list` para visualizar o histórico do stash.
+> O número do stash fica entre {} (chaves), por exemplo `stash@{0}: WIP on master`.
+
+### **8 Removendo as alterações do stash**
+
+`git stash drop`
+
+### **9 Trazendo os itens guardados no stash para o diretório de trabalho + Removendo as alterações do stash**
+(fazer ambas as ações ao mesmo tempo)
+
+`git stash pop`
+
+> Ao ser executado, realiza o merge com as alterações e aplica aquelas que estavam salvas lá.
+
+### **10 Removendo todos os stash**
+
+`git stash clear`
