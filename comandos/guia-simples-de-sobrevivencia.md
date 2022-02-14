@@ -116,3 +116,8 @@ git log --oneline // exibe todos os commits em um única linha de forma reduzida
 **Puxando o projeto para máquina no GitBash**
 
 `git clone + o link HTTPS copiado acima`
+
+### **9 Baixando as alterações do GitHub para a sua máquina**
+ (se o repositório for de sua autoria)
+
+`git pull origin <branch>`
