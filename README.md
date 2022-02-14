@@ -9,6 +9,7 @@
 ## Tabela de conteúdos
 
 1. [Guia Simples de Sobrevivência](./comandos/guia-simples-de-sobrevivencia.md)
+2. [Trabalhando com Commits](./comandos/trabalhando-com-commits.md)
 
 ## 🦸 Autor
 
