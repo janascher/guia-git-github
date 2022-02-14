@@ -6,6 +6,10 @@
 	🚧 Comandos para trabalhar com Git e GitHub 🚀 Em construção...  🚧
 </h4>
 
+Tabela de conteúdos
+=================
+1. [Guia Simples de Sobrevivência](./comandos/guia-simples-de-sobrevivencia)
+
 ## 🦸 Autor
 
 <table>
