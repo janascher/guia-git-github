@@ -27,7 +27,7 @@ git branch -m <nome do antigo branch> <novo nome da branch> // Altera o nome de 
 ```bash
 git branch -m <nome da branch> // Passo 1: primeiro alterar o nome da branch local e para isso é preciso estar na branch que deseja alterar
 
-// Atenção: o comando abaixo exclui a branch remota. Tenha certeza de que possui a última versão da branch remota em seu repositório local para poder fazer o push dela logo em seguida.
+# Atenção: o comando abaixo exclui a branch remota. Tenha certeza de que possui a última versão da branch remota em seu repositório local para poder fazer o push dela logo em seguida.
 git push origin :<nome do antigo branch> // Passo 2: substitua em <nome do antigo branch> pelo nome da sua branch antes de renomear
 
 git push --set-upstream origin <novo nome da branch> // Passo 3: envia a branch renomeada para o repositório remoto
