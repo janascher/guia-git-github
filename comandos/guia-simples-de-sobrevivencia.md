@@ -12,11 +12,11 @@
 
 **Configura nome de usuário**
 
-`git config --global user.name seu nome aqui`
+`git config --global user.name <seu nome aqui>`
 
 **Configura email de usuário**
 
-`git config --global user.email email@email.com.br`
+`git config --global user.email <seu email aqui>`
 
 ### **2 Inicializando um repositório**
 
@@ -36,17 +36,16 @@
 
 **Commitando arquivos**
 
-`git commit -m "insera um comentário significativo"`
+`git commit -m <insira um comentário significativo>"`
 
 > [6 Boas Práticas de Commit](https://blog.locaweb.com.br/temas/codigo-aberto/6-boas-praticas-de-git/)
 > 
 
 **Visualizando relatório de commits**
 
-`git log // exibe todos os commits
-git log --oneline // exibe todos os commits em um única linha de forma reduzida` 
-
-`git log -p // exibe todas as alterações dos commits`
+`git log // Exibe todos os commits`
+`git log --oneline // Exibe todos os commits em um única linha de forma reduzida` 
+`git log -p // Exibe todas as alterações dos commits`
 
 > Existe uma infinidade de formatos que podemos usar como filtros para mostrar nosso histórico, e em [git log cheatsheet](http://devhints.io/git-log) há vários delas.
 > 
@@ -74,37 +73,37 @@ git log --oneline // exibe todos os commits em um única linha de forma reduzida
 
 **Enviando as modificações para o repositório remoto**
 
-`git push origin <branch>`
+`git push origin <nome da branch>`
 
-### 7 **Trabalhando com branchs (Trabalhando em equipe)**
+### 7 **Trabalhando com branches (trabalhando em equipe)**
 
-**Criando e locomovendo-se para uma nova branch**
+**Criando e acessando para uma nova branch**
 
-`git checkout -b nome-branch`
+`git checkout -b <nome da branch>`
 
 **Visualizando todas as branches existentes no repositório**
 
 `git branch`
 
-**Alterando de branchs**
+**Alterando de branches**
 
-`git checkout nome-branch`
+`git checkout <nome da branch>`
 
-**Aplicando merge em branchs**
+**Aplicando merge em branches**
 
-`git merge nome-branch // precisa estar na branch de destino`
+`git merge <nome da branch> // Precisa estar na branch de destino`
 
 **Baixando alterações do GitHub para a sua máquina (se o repositório for de sua autoria)**
 
-`git pull origin <branch>`
+`git pull origin <nome da branch>`
 
 **Deletando uma branch local**
 
-`git branch -D nome-branch`
+`git branch -D <nome da branch>`
 
-**Deletando uma branch remoto**
+**Deletando uma branch remota**
 
-`git push origin :nome-branch`
+`git push origin :<nome da branch>`
 
 ### 8 Clonando um repositório para a sua máquina
 
