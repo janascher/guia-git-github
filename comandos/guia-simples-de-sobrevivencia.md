@@ -43,9 +43,13 @@
 
 **Visualizando relatório de commits**
 
-`git log // Exibe todos os commits`
-`git log --oneline // Exibe todos os commits em um única linha de forma reduzida` 
-`git log -p // Exibe todas as alterações dos commits`
+```bash
+git log // Exibe todos os commits
+
+git log --oneline // Exibe todos os commits em um única linha de forma reduzida
+
+git log -p // Exibe todas as alterações dos commits
+```
 
 > Existe uma infinidade de formatos que podemos usar como filtros para mostrar nosso histórico, e em [git log cheatsheet](http://devhints.io/git-log) há vários delas.
 > 
