@@ -32,7 +32,7 @@ git push origin :<nome do antigo branch> // Passo 2: substitua em <nome do antig
 
 git push --set-upstream origin <novo nome da branch> // Passo 3: envia a branch renomeada para o repositório remoto
 
-Pronto! Tanto a sua branch local quanto remota foram renomeadas.
+# Pronto! Tanto a sua branch local quanto remota foram renomeadas.
 ```
 
 ### **5 Alterando de branch**
