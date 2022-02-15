@@ -8,8 +8,11 @@
 
 ## Tabela de conteúdos
 
-1. [Guia Simples de Sobrevivência](./comandos/guia-simples-de-sobrevivencia.md)
-2. [Trabalhando com Commits](./comandos/trabalhando-com-commits.md)
+1. [Configurações](./comandos/configuracoes.md)
+2. [Guia Simples de Sobrevivência](./comandos/guia-simples-de-sobrevivencia.md)
+3. [Trabalhando com Branches](./comandos/trabalhando-com-branches.md)
+4. [Trabalhando com Commits](./comandos/trabalhando-com-commits.md)
+5. [Trabalhando com Tags e Releases](./comandos/trabalhando-com-tags-releases.md)
 
 ## 🦸 Autor
 
