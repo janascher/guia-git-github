@@ -2,53 +2,73 @@
 
 ### **1 Commitando**
 
-`git commit -m <insera um comentário significativo>"`
+```bash
+git commit -m "insera um comentário significativo"
+```
 
 ### **2 Desfazendo alterações antes de adicioná-las (antes de fazer `git add`)**
 
-`git checkout -- <nome do arquivo>`
+```bash
+git checkout -- <nome do arquivo>
+```
 
 ### **3 Desfazendo alterações depois de adicioná-las (depois de fazer `git add`)**
 
-`git reset HEAD <nome do arquivo>`
+```bash
+git reset HEAD <nome do arquivo>
+```
 
 ### **4 Desfazendo um commit**
 
-`git revert <insira o hash do commit>`
+```bash
+git revert <insira o hash do commit>
+```
 
 > Para encontrar o hash do commit, é preciso rodar no terminal o `git log` para visualizar o histórico de commits.
 > O hash é o código composto de letras e números que aparece em `commit: XXXXXXXXX`.
 
 ### **5 Guardando alterações temporariamente e que ainda não foram commitadas para o stash**
 
-`git stash`
+```bash
+git stash
+```
 
 ### **6 Visualizando os itens guardados no stash**
 
-`git stash list`
+```bash
+git stash list
+```
 
 ### **7 Trazendo os itens guardados no stash para o diretório de trabalho**
 (porém elas continuarão na stash, portanto será preciso removê-las depois)
 
-`git stash apply <número do stash>`
+```bash
+git stash apply <número do stash>
+```
 
 > Para encontrar o número do stash, é preciso rodar no terminal o `git stash list` para visualizar o histórico do stash.
 > O número do stash fica entre {} (chaves), por exemplo `stash@{0}: WIP on master`.
 
 ### **8 Removendo as alterações do stash**
 
-`git stash drop`
+```bash
+git stash drop
+```
 
 ### **9 Trazendo os itens guardados no stash para o diretório de trabalho + Removendo as alterações do stash**
 (fazer ambas as ações ao mesmo tempo)
 
-`git stash pop`
+```bash
+git stash pop
+```
 
 > Ao ser executado, realiza o merge com as alterações e aplica aquelas que estavam salvas lá.
 
 ### **10 Removendo todos os stash**
 
-`git stash clear`
+```bash
+git stash clear
+```
 
 ### **11 Visualizando relatórios de commits**
 
@@ -65,5 +85,5 @@ git log -p // Exibe todas as alterações dos commits
 ```bash
 git diff // Mostra o que foi alterado e que ainda não foi adicionado para commit
 
-git diff <insira o hash do commit>...<insira o hash do commit> // Os três pontinhos (...) significam "até"
+git diff {hash do commit de merge com lista}...{hash do último commit realizado} // Os três pontinhos (...) significam "até"
 ```

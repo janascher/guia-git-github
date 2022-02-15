@@ -10,7 +10,9 @@ git checkout -b <nome da branch> // Criando e acessando uma nova branch
 
 ### **2 Retorna em um ponto específico e cria uma nova branch**
 
-`git checkout <insira o hash do commit> -b <nome da nova branch>`
+```bash
+git checkout <insira o hash do commit> -b <nome da nova branch>
+```
 
 ### **3 Renomeando as branches locais**
 
@@ -35,7 +37,9 @@ Pronto! Tanto a sua branch local quanto remota foram renomeadas.
 
 ### **5 Alterando de branch**
 
-`git checkout <nome da branch>`
+```bash
+git checkout <nome da branch>
+```
 
 ### **6 Visualizando todas as branches**
 
@@ -47,12 +51,18 @@ git branch -a // Locais e remotos
 
 ### **7 Aplicando merge em branches**
 
-`git merge nome-branch // Precisa estar na branch de destino`
+```bash
+git merge <nome da branch> // Precisa estar na branch de destino
+```
 
 ### **8 Deletando uma branch local**
 
-`git branch -D <nome da branch>`
+```bash
+git branch -D <nome da branch>
+```
 
 ### **9 Deletando uma branch remota**
 
-`git push origin :<nome da branch>`
+```bash
+git push origin :<nome da branch>
+```
