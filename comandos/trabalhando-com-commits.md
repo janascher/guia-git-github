@@ -52,11 +52,18 @@
 
 ### **11 Visualizando relatórios de commits**
 
-`git log // Exibe todos os commits`
-`git log --oneline // Exibe todos os commits em um única linha de forma reduzida`
-`git log -p // Exibe todas as alterações dos commits`
+```bash
+git log // Exibe todos os commits
+
+git log --oneline // Exibe todos os commits em um única linha de forma reduzida
+
+git log -p // Exibe todas as alterações dos commits
+```
 
 ### **12 Visualizando as diferenças de commits**
 
-`git diff // Mostra o que foi alterado e que ainda não foi adicionado para commit`
-`git diff <insira o hash do commit>...<insira o hash do commit> // Os três pontinhos (...) significam "até"`
+```bash
+git diff // Mostra o que foi alterado e que ainda não foi adicionado para commit
+
+git diff <insira o hash do commit>...<insira o hash do commit> // Os três pontinhos (...) significam "até"
+```
